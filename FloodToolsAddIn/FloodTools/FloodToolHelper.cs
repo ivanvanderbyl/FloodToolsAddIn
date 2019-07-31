@@ -73,8 +73,7 @@ namespace Tricentis.TCAddIns.FloodTools
 
         public static string MessageResponse(WebRequest request)
         {
-            string result = "";
-
+            
             using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
             using (Stream stream = response.GetResponseStream())
             using (StreamReader sr = new StreamReader(stream))

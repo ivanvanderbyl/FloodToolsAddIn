@@ -18,7 +18,7 @@ namespace Tricentis.TCAddIns.FloodTools.Tasks
     {
         public static readonly string Tosca2ElementUrl = "https://tosca2element.flood.io";
 
-        public override string Name => "Export Element Script";
+        public override string Name => "Generate Element script";
 
         public override TaskGroup Group => TaskGroup.Advanced;
 
